@@ -90,6 +90,8 @@ def add_prompt():
 
 def show_list(prompt_list=None):
     print("\n=== 프롬프트 목록 ===")
+    print("저장된 프롬프트를 확인합니다.")
+
 
     if prompt_list is None:
         prompt_list = prompts
