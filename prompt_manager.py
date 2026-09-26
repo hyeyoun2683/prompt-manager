@@ -42,6 +42,7 @@ def show_menu():
 
 def add_prompt():
     print("\n=== 프롬프트 추가 ===")
+    print("새로운 프롬프트의 정보를 입력해주세요.")
 
     while True:
         title = input("제목 입력: ").strip()
